@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TCDBGen>
+	<DBConf MaxFolder="2000" FileUpdateCount="2000" MetaUpdateCount="1000"/>
+	<AudioFileTable>
+		<Config MaxFile="6000"/>
+		<SupportList>
+			<Ext Name=".mp3"/>
+			<Ext Name=".mp2"/>
+			<!-- <Ext Name=".wma"/> -->
+			<Ext Name=".wav"/>
+			<Ext Name=".ogg"/>
+			<Ext Name=".aac"/>
+			<Ext Name=".ape"/>
+			<Ext Name=".flac"/>
+			<Ext Name=".amr"/>			
+		</SupportList>
+	</AudioFileTable>	
+	<VideoFileTable>
+		<Config MaxFile="2000"/>
+		<SupportList>
+			<Ext Name=".avi"/>
+			<Ext Name=".mkv"/>
+			<Ext Name=".mpg"/>
+			<Ext Name=".flv"/>
+			<Ext Name=".ts"/>
+			<Ext Name=".mp4"/>
+			<Ext Name=".m2ts"/>
+			<Ext Name=".webm"/>
+			<Ext Name=".3gp"/>
+			<Ext Name=".mov"/>
+			<!-- <Ext Name=".asf"/> -->
+			<Ext Name=".ogm"/>		
+			<!-- <Ext Name=".wmv"/> -->
+		</SupportList>
+	</VideoFileTable>	
+</TCDBGen>

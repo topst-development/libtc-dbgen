@@ -1,0 +1,5 @@
+Name : libTcDBGen
+Description : Linux AVN DB Gathering Library 
+Version : 0.0.1
+Libs : -lpthread 
+pkg_package = sqlite3
